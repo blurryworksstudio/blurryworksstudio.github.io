@@ -158,10 +158,8 @@ img {
 }
 
 .section.team {
-  height: 100vh;
-  padding-top: 240px;
-  padding-left: 14%;
-  padding-right: 14%;
+  height: auto;
+  padding: 240px 14%;
 }
 
 .section.contact {
@@ -206,6 +204,8 @@ img {
   z-index: 2;
   justify-content: flex-end;
   align-items: center;
+  height: 70vh;
+  margin-top: 15vh;
   padding-right: 40px;
   display: flex;
   position: fixed;
@@ -344,7 +344,7 @@ img {
 .project-image.color {
   z-index: 0;
   opacity: 0;
-  filter: brightness(40%);
+  filter: brightness(60%);
 }
 
 .text-block {
@@ -572,7 +572,7 @@ img {
 }
 
 .footer-wrapper {
-  z-index: 2;
+  z-index: 10;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
   opacity: 0;
@@ -592,9 +592,11 @@ img {
 }
 
 .social-icons {
+  z-index: 10;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   display: flex;
+  position: relative;
 }
 
 .social-icon-svg {
@@ -882,6 +884,8 @@ img {
     background-color: #c8c8c800;
     background-image: linear-gradient(90deg, #0009, #000000e6 68%);
     width: 100vw;
+    height: auto;
+    margin-top: 0;
     transform: translate(100vw);
   }
 
@@ -933,7 +937,7 @@ img {
   }
 
   .member-image-wrapper {
-    height: 400px;
+    height: 440px;
   }
 
   .member-name-wrapper {
@@ -1136,7 +1140,7 @@ img {
   }
 
   .member-image-wrapper {
-    height: 300px;
+    height: 320px;
   }
 
   .member-description {
@@ -1279,7 +1283,7 @@ img {
   }
 
   .member-image-wrapper {
-    height: 180px;
+    height: 240px;
   }
 
   .member-name-wrapper {
